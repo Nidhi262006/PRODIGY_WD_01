@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li{
+    margin: 0 20px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 43);
+    font-size: 18px;
+}
+
+#navbar ul li a:hover{
+    color: rgb(212, 14, 238);
+}
+
+.content{
+    margin-top: 10px;
+    height: 2000px;
+    padding: 20px;
+}
